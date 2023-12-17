@@ -1,4 +1,4 @@
-import HeroImage from '../assets/images/hero-image.jpg'
+import HeroImage from '../assets/images/nuevo.png'
 import { FaPhone } from 'react-icons/fa'
 
 function HeroHome() {
@@ -60,7 +60,7 @@ function HeroHome() {
               data-aos-delay="450"
             >
               <div className="flex flex-col justify-center ">
-                <img className="mx-auto w-1/3" src={HeroImage} alt="Hero" />
+                <img className="mx-auto w-1/2" src={HeroImage} alt="Hero" />
               </div>
             </div>
           </div>

@@ -39,7 +39,7 @@ function FeaturesBlocks() {
             />
 
             <Card
-              title="Martha lisbeth Vergara Jiménez"
+              title="Martha Lisbeth Vergara Jiménez"
               description="Excelente atención de los vendedores, te resuelven tus dudas y asesoran. Cuentan con un extenso surtido en plomeria y electricidad! Superaron mis espectativas 😉…"
             />
 
@@ -63,7 +63,7 @@ const Card = ({ title, description, icon }) => {
   return (
     <div className="relative flex flex-col items-center p-6 min-h-full bg-white rounded shadow-xl">
       <FaUser className="bg-blue-600 text-4xl rounded-full p-2 text-blue-100 m-1" />
-      <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">
+      <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center capitalize">
         {title}
       </h4>
       <p className="text-gray-600 text-center">{description}</p>

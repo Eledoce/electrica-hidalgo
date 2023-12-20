@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../assets/images/hero-image.jpg'
+import logo from '../assets/images/nuevo.png'
 
 function Header() {
   const [top, setTop] = useState(true)
@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <header
-      className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
+      className={`fixed w-full z-30 md:bg-opacity-90  transition duration-300 ease-in-out ${
         !top && 'bg-white backdrop-blur-sm shadow-lg'
       }`}
     >
@@ -41,7 +41,7 @@ function Header() {
           </div>
           {/* Site navigation */}
           <p
-            className={`text-xl transition-colors delay-300 ${
+            className={`hidden md:block text-xl transition-colors delay-300 ${
               top ? 'text-transparent' : 'text-gray-600'
             }`}
           >

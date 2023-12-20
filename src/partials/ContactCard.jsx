@@ -5,7 +5,7 @@ import { FaFacebook } from 'react-icons/fa'
 
 function Newsletter() {
   return (
-    <div id="contactcard">
+    <div id="contactcard" className="w-full">
       <h3 className="h2 text-center pb-5">Contacto</h3>
       <section>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -114,7 +114,7 @@ function Newsletter() {
                     calidad para tus proyectos.
                   </p>
 
-                  <ul className="text-gray-300 flex flex-col gap-3 text-xl">
+                  <ul className="text-gray-300 flex flex-col gap-3 text-xl  text-left">
                     <li className="flex items-center">
                       <BsFillTelephoneFill className="inline-block mr-5" />
                       <ul>
@@ -130,14 +130,16 @@ function Newsletter() {
                       <IoLogoWhatsapp className="inline-block mr-5" />
                       735 128 0629
                     </li>
-
-                    <li>
-                      <IoMdMail className="inline-block mr-5" />
-                      ventas@electricayplomeriahidalgo.com
-                    </li>
                     <li>
                       <FaFacebook className="inline-block mr-5" />
                       {`Eléctrica y Plomería "Hidalgo"`}
+                    </li>
+
+                    <li className="inline-flex items-center">
+                      <IoMdMail className="md:inline-block mr-5 hidden md:visible" />
+                      <p className="text-base">
+                        ventas@electricayplomeriahidalgo.com
+                      </p>
                     </li>
                   </ul>
                 </div>

@@ -50,7 +50,10 @@ function Features() {
             </div>
 
             {/* Second div */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 md:mt-6 flex justify-center items-center flex-wrap gap-4 select-none">
+            <div
+              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 md:mt-6 flex justify-center items-center flex-wrap gap-4 select-none"
+              data-aos="fade-left"
+            >
               <img src={amanco} alt="amanco" />
               <img src={calorex} alt="calorex" />
               <img src={coflex} alt="coflex" />

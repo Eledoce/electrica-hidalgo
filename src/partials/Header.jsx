@@ -45,13 +45,13 @@ function Header() {
               top ? 'text-transparent' : 'text-gray-600'
             }`}
           >
-            Electrica y Plomeria Hidalgo
+            Eléctrica y Plomería Hidalgo
           </p>
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <a
-                  href="#"
+                  href="#contactcard"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Contacto
@@ -59,8 +59,10 @@ function Header() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://maps.google.com/maps/dir//El%C3%A9ctrica+Y+Plomer%C3%ADa+Hidalgo+Av+Insurgentes+1139+Miguel+Hidalgo+62748+Cuautla,+Mor./@18.8412411,-98.9416335,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x85ce6edca59e70e7:0xa0eab80dddbe7ffb"
                   className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <span>Como llegar</span>
                   <svg

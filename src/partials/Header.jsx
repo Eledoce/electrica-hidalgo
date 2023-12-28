@@ -24,7 +24,7 @@ function Header() {
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
-            <a className="flex " aria-label="Cruip">
+            <div className="flex " aria-label="Cruip">
               <div
                 className={`h-10 w-10 bg-gradient-to-br from-blue-500 to-teal-300 rounded-full transition-opacity delay-300 ${
                   top ? 'opacity-100' : 'opacity-0'
@@ -37,7 +37,7 @@ function Header() {
                   top ? 'opacity-0' : 'opacity-100'
                 }`}
               />
-            </a>
+            </div>
           </div>
           {/* Site navigation */}
           <p

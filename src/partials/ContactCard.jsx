@@ -115,31 +115,58 @@ function Newsletter() {
                   </p>
 
                   <ul className="text-gray-300 flex flex-col gap-3 text-xl  text-left">
-                    <li className="flex items-center">
-                      <BsFillTelephoneFill className="inline-block mr-5" />
-                      <ul>
-                        <li>735 353 1683</li>
-                        <li>735 114 1061</li>
-                        <li>
-                          Ext.
-                          <b>101 a la 104</b>
-                        </li>
-                      </ul>
+                    <li className="hover:underline">
+                      <a
+                        href="tel:+527353531683"
+                        className="flex items-center"
+                        aria-label="telephone"
+                      >
+                        <BsFillTelephoneFill className="inline-block mr-5" />
+                        <ul>
+                          <li>735 353 1683</li>
+                          <li>
+                            Ext.
+                            <b>101 a la 104</b>
+                          </li>
+                        </ul>
+                      </a>
                     </li>
-                    <li>
-                      <IoLogoWhatsapp className="inline-block mr-5" />
-                      735 128 0629
+                    <li className="hover:underline">
+                      <a
+                        href={
+                          /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+                            ? 'whatsapp://send?phone=527351280629'
+                            : 'https://api.whatsapp.com/send?phone=527351280629'
+                        }
+                        aria-label="whatsapp"
+                      >
+                        <IoLogoWhatsapp className="inline-block mr-5" />
+                        735 128 0629
+                      </a>
                     </li>
-                    <li>
-                      <FaFacebook className="inline-block mr-5" />
-                      {`Eléctrica y Plomería "Hidalgo"`}
+                    <li className="hover:underline">
+                      <a
+                        href="https://www.facebook.com/profile.php?id=100063556434788"
+                        aria-label="Facebook"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaFacebook className="inline-block mr-5" />
+                        {`Eléctrica y Plomería "Hidalgo"`}
+                      </a>
                     </li>
 
-                    <li className="inline-flex items-center">
-                      <IoMdMail className="md:inline-block mr-5 hidden md:visible" />
-                      <p className="text-base">
-                        ventas@electricayplomeriahidalgo.com
-                      </p>
+                    <li className=" hover:underline">
+                      <a
+                        className="inline-flex items-center"
+                        href="mailto:ventas@electricayplomeriahidalgo.com"
+                        aria-label="mail"
+                      >
+                        <IoMdMail className="md:inline-block mr-5 hidden md:visible" />
+                        <p className="text-base">
+                          ventas@electricayplomeriahidalgo.com
+                        </p>
+                      </a>
                     </li>
                   </ul>
                 </div>

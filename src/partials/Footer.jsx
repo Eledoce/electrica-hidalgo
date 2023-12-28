@@ -39,8 +39,8 @@ function Footer() {
             </li>
             <li className="ml-4">
               <a
-                href="https://www.facebook.com/profile.php?id=100063556434788"
                 className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                href="https://www.facebook.com/profile.php?id=100063556434788"
                 aria-label="Facebook"
                 target="_blank"
                 rel="noopener noreferrer"

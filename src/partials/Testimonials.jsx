@@ -39,13 +39,13 @@ function FeaturesBlocks() {
             />
 
             <Card
-              title="Martha Lisbeth Vergara Jiménez"
-              description="Excelente atención de los vendedores, te resuelven tus dudas y asesoran. Cuentan con un extenso surtido en plomeria y electricidad! Superaron mis espectativas 😉…"
+              title="Angel Cullen"
+              description="Excelente servicio y calidad de los productos que ofrecen además de horarios flexibles... Super recomendado"
             />
 
             <Card
-              title="Jorge lopez gomez"
-              description="Considero que es una tienda que tiene surtido material de electricidad y plomería, además de una muy buena atención por parte de su personal"
+              title="Alberto Muciño"
+              description="Muy buena atención con buena asesoria para compra de artículos de plomeria. Precios aceptables y tienen un buen surtido."
             />
 
             <Card
